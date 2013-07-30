@@ -60,9 +60,9 @@ void draw() {
   }
   canvas.endDraw();
   image(canvas, 0, 0);
-  fill(0, 100);
-  rect(0, 1000, 1920, 80);
+  fill(0);
+  rect(0, 1040, 1920, 40);
   fill(255);
-  text("Generative Artwork by Chris Riebschlager - Create your own artwork tonight! Stop by the touch screen and create a piece like this", 40, 1040);
+  text("Generative Artwork by Chris Riebschlager - Create your own artwork tonight! Stop by the touch screen and create a piece like this", 40, 1060);
 }
 
