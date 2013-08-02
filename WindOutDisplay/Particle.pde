@@ -10,7 +10,7 @@ class Particle {
 
   public Particle(PVector _pos, int _lifetime) {
     pos = _pos;
-    vel = new PVector(0,0);
+    vel = new PVector(0, 0);
     lifetime = _lifetime;
     age = 0;
     isDead = false;

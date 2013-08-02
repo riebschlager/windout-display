@@ -39,7 +39,7 @@ void draw() {
     changeColors();
     startOver();
   }
-  if (particles.size() < 30) {
+  if (particles.size() < 10) {
     Particle p = new Particle(new PVector(width/2 + random(-600, 600), height/2 + random(-200, 200)), (int) random(150, 500));
     p.shape = shapes.get((int) random(shapes.size()));
     p.pixel = colors[(int) random(colors.length)];
@@ -63,6 +63,6 @@ void draw() {
   fill(0);
   rect(0, 1040, 1920, 40);
   fill(255);
-  text("Generative Artwork by Chris Riebschlager - Create your own artwork tonight! Stop by the touch screen and create a piece like this", 40, 1060);
+  text("Generative Artwork by Chris Riebschlager - Create your own artwork tonight! Stop by the touch screen and create a piece like this.", 40, 1065);
 }
 

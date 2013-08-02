@@ -20,8 +20,8 @@ class Palettes {
     colors.add(colorsFromList(#474447, #605A5F, #CCC8C9, #1C171B, #878282, #E0E0E0));
     colors.add(colorsFromList(#A8E3E3, #315D60, #6C5064, #4DB3AC, #1B1F1F, #C98F6C));
   }
-  
-  public void nextColor(){
+
+  public void nextColor() {
     currentPalette = (currentPalette < colors.size()-1) ? currentPalette + 1 : 0;
   }
 
